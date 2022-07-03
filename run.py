@@ -3,7 +3,9 @@ import random
 import time
 import shutil
 
-path  = r'd:\python trojan\test'
+# path  = r'd:\python trojan\test'
+cwd = os.getcwd()
+path = os.path.join(cwd, 'test')
 
 folderList = os.listdir(path)
 
